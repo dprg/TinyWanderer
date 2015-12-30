@@ -1,0 +1,31 @@
+Qty	Description
+===	===========
+1	Switch
+1	Atmel ATtiny2285 (TAnners $2.79)
+1	8-pin dip socket
+1	2x3 header
+1	150 ohm resistor
+1	10k resistor
+2	100k resistor
+1 	20 pin 1 row header pins
+1	Diode 1N4001 (Tanners $0.08)
+1	Cap 100uF
+1	Cap 0.1uF
+4	Battery AA
+1	Battery holder 4xAA (TAnners $0.79)
+2	IR LED (Tanners 0.29)
+2	IR Phototransistor (Tanners 0.29)
+2	Pololu SprintRC SM-S4303R Continuous Rotation Servo ($12.95)
+
+3	sq ft. 1/8" plastic (ABS or Lexan etc, not PVC), cut to 
+	6"x9" (body1), 6"x11" (body2),and 10"x10 (wheels)"
+2	Roller-skate bearings
+10	#4 x 5/8" screws
+10	#4 x 3/8" screws
+20	#4 nuts
+2	1/4" x 1" bolts & nuts
+4	servo horn screws & nuts
+
+Equipment:
+1	Pololu USB AVR Programmer #1300 ($19.95)
+

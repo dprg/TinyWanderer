@@ -1,0 +1,175 @@
+# EESchema Netlist Version 1.1 created  2/18/2011 11:27:11 AM
+(
+ ( /4D3C952E C1 .1uF1 C1
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4D3C9552 CP-0.2-0.4 100u1 CP1
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4D3C9509 D4 D1 DIODE
+  ( 1 +6V )
+  ( 2 VCC )
+ )
+ ( /4D348D82 DIP-8__300_ELL IC1 ATTINY13A-P
+  ( 1 /RESET )
+  ( 2 /R_sensor )
+  ( 3 /LED )
+  ( 4 GND )
+  ( 5 /Left_servo )
+  ( 6 /Right_servo )
+  ( 7 /SCK )
+  ( 8 VCC )
+ )
+ ( /4D5EAA50 PIN_ARRAY_2X1 JP1 JUMPER
+  ( 1 N-000005 )
+  ( 2 /RESET )
+ )
+ ( /4D5EA9DE PIN_ARRAY_2X1 JP2 JUMPER
+  ( 1 N-000003 )
+  ( 2 /SCK )
+ )
+ ( /4D3C8FFB PIN_ARRAY_3X1 K1 L_SERVO
+  ( 1 /Left_servo )
+  ( 2 +6V )
+  ( 3 GND )
+ )
+ ( /4D3C9026 PIN_ARRAY_3X1 K2 R_SERVO
+  ( 1 /Right_servo )
+  ( 2 +6V )
+  ( 3 GND )
+ )
+ ( /4D5E8CA4 PIN_ARRAY_3X1 K3 CONN_3
+  ( 1 /IR_LED )
+  ( 2 /Left_sensor )
+  ( 3 GND )
+ )
+ ( /4D5E8BF0 PIN_ARRAY_3X1 K4 CONN_3
+  ( 1 /IR_LED )
+  ( 2 /Right_sensor )
+  ( 3 GND )
+ )
+ ( /4D348DB5 pin_array_3x2 P1 CONN_3X2
+  ( 1 /Right_servo )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /Left_servo )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /4D3C90A2 PIN-PWR-9V P2 PWR
+  ( 1 /Battery )
+  ( 2 GND )
+ )
+ ( /4D3C93D0 PIN_ARRAY_2X1 P3 PWR-alt
+  ( 1 /Battery )
+  ( 2 GND )
+ )
+ ( /4D3C9081 PIN_ARRAY_2X1 P6 IR_LED
+  ( 1 /IR_LED )
+  ( 2 GND )
+ )
+ ( /4D3C99BD R3-5 R1 0R
+  ( 1 N-000003 )
+  ( 2 /Left_sensor )
+ )
+ ( /4D3C99BA R3-5 R2 0R
+  ( 1 /R_sensor )
+  ( 2 /Right_sensor )
+ )
+ ( /4D3C99B3 R3-5 R3 150
+  ( 1 /LED )
+  ( 2 /IR_LED )
+ )
+ ( /4D3C99BF R3-5 R4 100k
+  ( 1 VCC )
+  ( 2 N-000003 )
+ )
+ ( /4D3C99C2 R3-5 R5 100k
+  ( 1 VCC )
+  ( 2 /R_sensor )
+ )
+ ( /4D3C99CD R3-5 R6 10k
+  ( 1 VCC )
+  ( 2 N-000005 )
+ )
+ ( /4D3C99C5 R3-5 R7 Open
+  ( 1 VCC )
+  ( 2 /LED )
+ )
+ ( /4D40AF9F SW-MINISLIDE SW1 SW-MINISLIDE
+  ( 1 /Battery )
+  ( 2 /Battery )
+  ( 3 +6V )
+  ( 4 /Battery )
+  ( 5 /Battery )
+  ( 6 +6V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component .1uF1
+ SM*
+ C?
+ C1-1
+$endlist
+$component 100u1
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
